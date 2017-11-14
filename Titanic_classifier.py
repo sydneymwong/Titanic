@@ -60,4 +60,5 @@ def main():
     clflog = return_classifier("log")
     apply_classifier(clflog, train_features, train_labels, test_features, test_names, "3")
 
-main()
+if __name__ == "__main__" :
+    main()
